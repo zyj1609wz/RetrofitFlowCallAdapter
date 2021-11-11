@@ -1,0 +1,3 @@
+rootProject.name = "RetrofitFlowCallAdapter"
+include ':app'
+include ':lib'
