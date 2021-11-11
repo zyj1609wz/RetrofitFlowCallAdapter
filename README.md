@@ -8,9 +8,6 @@ Retrofit + Flow 最佳实践
 
 # 使用
 
-```java
-
-```
 添加 FlowCallAdapterFactory 异步方式
 ```java
 val retrofit = Retrofit.Builder()
@@ -61,4 +58,22 @@ lifecycleScope.launch {
                }
            }
         }
+```
+
+# Downlaod
+
+**Step 1.** Add the JitPack repository to your build file:
+
+```Gradle
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+**Step 2.** Add the dependency:
+
+```java
+implementation 'com.github.zyj1609wz:RetrofitFlowCallAdapter:1.0.0'
 ```
