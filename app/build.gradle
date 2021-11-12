@@ -49,5 +49,5 @@ dependencies {
 
 //    implementation project(':lib')
 
-    implementation 'com.github.zyj1609wz:RetrofitFlowCallAdapter:1.0.0'
+    implementation 'com.github.zyj1609wz:RetrofitFlowCallAdapter:1.1.0'
 }

@@ -75,5 +75,5 @@ allprojects {
 **Step 2.** Add the dependency:
 
 ```java
-implementation 'com.github.zyj1609wz:RetrofitFlowCallAdapter:1.0.0'
+implementation 'com.github.zyj1609wz:RetrofitFlowCallAdapter:1.1.0'
 ```
